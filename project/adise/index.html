@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title> Action-Driven 3D Indoor Scene Evolution </title>
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="iconize.css" />	
+</head>
+
+
+<body>
+
+<div id="paper-title"> <h1> Action-Driven 3D Indoor Scene Evolution </h1> </div>
+
+<div id="venue">
+	SIGGRAPH Asia 2016
+</div>
+
+<div id="author-list">  
+	<a href="http://www.sfu.ca/~ruim/"> Rui Ma </a>
+	<a href="http://honghuali.github.io/"> Honghua Li </a>
+	<a href="http://changqingzou.weebly.com/"> Changqing Zou </a>
+	<a href="http://web.engr.illinois.edu/~liao17/"> Zicheng Liao </a>
+	<a href="http://research.microsoft.com/en-us/um/people/xtong/xtong.html"> Xin Tong </a>
+	<a href="http://www.cs.sfu.ca/~haoz/"> Hao Zhang </a>
+</div>
+
+<div id="author-affiliation">
+	<span class="affiliation"> Simon Fraser University </span>
+	<span class="affiliation"> Shandong University </span>
+	<br/>
+	<span class="affiliation"> Zhejiang University </span>
+	<span class="affiliation"> Microsoft Research </span>
+</div>
+
+
+<div id="teaser-part">
+	<a class="imageLink" href="teaser.jpg"><img id="teaser" src="teaser.jpg" alt="Teaser"/></a>
+</div>
+
+<div id="abstract">
+	<h2 class="caption"> Abstract </h2>
+	<p class="paragraph">  
+We introduce a framework for action-driven evolution of 3D indoor scenes, where the goal is
+to simulate how scenes are ''messed up'' by human actions, and specifically, by object
+placements necessitated by the actions. To this end, we develop an action model with each 
+type of action combining information about one or more human poses, one or more object categories, and 
+spatial configurations of objects belonging to these categories which summarize the object-object
+and object-human relations for the action; all these pieces of information are 
+learned from annotated photos.
+Correlations between the learned actions are analyzed and guide the construction of an action graph.
+Starting with an initial 3D scene, we probabilistically sample sequences of actions extracted
+from the action graph to drive progressive scene evolution. Each action applied triggers 
+appropriate object placements, based on object co-occurrences and spatial configurations learned for 
+the action model.
+We show results of our scene evolution, leading to realistic and messy 3D scenes.
+Evaluations include user studies which compare our method to manual scene creation and 
+state-of-the-art, data-driven methods, in terms of scene plausibility and naturalness.
+	</p>
+</div>
+
+<div id="package">  
+	<a id="paper-item" href="files/adise.pdf"> paper (38.7 MB) </a>
+	<a id="paper-item" href="files/adise_small.pdf"> small (2.3 MB) </a>
+	<a id="slides-item" href="files/adise.pptx"> slides (40.7 MB) </a>
+	<br/>
+	<br/>
+	<a id="code-item" href="https://drive.google.com/open?id=0B7L3NKuO_SE9RkR3ekZWdkR3ZTQ"> code (39.1 MB) </a>
+	<a id="data-item" href="https://drive.google.com/open?id=0B7L3NKuO_SE9SFh1NkRXMTFtclE"> dataset (168 MB) </a>
+</div>
+
+<div id="video">
+	<h2 class="caption"> Video </h2>
+	<br/>
+	<iframe width="800" height="500" src="https://www.youtube.com/embed/ebLSRby6c_4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id="acknowledgement">
+	<h2 class="caption"> Acknowledgment </h2>
+	<p class="paragraph"> 
+	We would like to thank all the reviewers for their comments and suggestions. We are grateful to Matthew Fisher for his help in providing data and results during our evaluation. Thanks also go to Ashutosh Saxena for off-line discussions on related works. The first author carried out the earlier phase of the research work at Microsoft Research Asia with their support and a MITACS Globalink Research Award. This work was also supported in part by NSERC (611370), NSFC (61502153,61602406), and NSF of Hunan Province of China (2016JJ3031). We also thank Jaime Vargas for the video voice.
+	</p>
+</div>
+
+<div id="footer">
+	<a href="http://gruvi.cs.sfu.ca/"> <img id="gruvi-logo" src="images/logo.png"/> </a>
+	<div>&copy;2016 GrUVi. All rights reserved.</div>
+</div>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49472186-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+
+</html>
