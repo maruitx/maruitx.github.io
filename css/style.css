@@ -29,26 +29,24 @@ img{border:0;}
 #aboutme{
 
     background-color:#fff;
-    height:350px;
-
+    height:auto;
 }
 
 
 .biocontent{
-	font:16px Arial, sans-serif;
+	font:15px Arial, sans-serif;
 	color:#1f1e1e;
 	margin-top:20px;
-	line-height:30px;
+	line-height:24px;
 	margin-left: 60px;
-    margin-right: 40px;
+    margin-right: 30px;
     letter-spacing: 0.5px;
 	
 }
 
 .biophoto img
 {
-
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .sectionhead{
@@ -81,8 +79,9 @@ img{border:0;}
 }
 
 .pfigure img{
-width: 240px;
-margin-left: 20px;
+	width: 400px;
+	margin-left: 40px;
+	margin-top: 20px;
 }
 
 
@@ -91,17 +90,21 @@ margin-left: 20px;
 	color:#1f1e1e;
 	margin-top:30px;
 	line-height:25px;
-	margin-left: 25px;
-    margin-right: 25px;
+	margin-left: 80px;
+    margin-right: 100px;
 }
 .pabstract{
     font:15px Arial, sans-serif;
 	color:#1f1e1e;
-	margin-top:20px;
+	margin-top:15px;
 	line-height:22px;
-	margin-left: 25px;
-    margin-right: 25px;
-    
+	margin-left: 80px;
+    margin-right: 80px;    
+}
+
+#project{
+    background-color:#fff;
+    height: auto;
 }
 
 .presource{
@@ -110,11 +113,6 @@ margin-left: 20px;
 }
 
 .clear{clear:both;}
-
-#project{
-    background-color:#fff;
-    height: auto;
-}
 
 /*footer*/
 #footer{
@@ -131,8 +129,7 @@ margin-left: 20px;
 	float:right;
     font:16px Arial;
 	color:#1f1e1e;
-	line-height:50px;
-    
+	line-height:50px;    
 }
 
 
